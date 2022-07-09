@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Construir Job 1') {
       steps {
-        sh 'start chrome "http://localhost:9090/job/Carpeta%20prueba/job/Tarea1/build?token=job1"'
+        sh 'start chrome http://localhost:9090/job/Carpeta%20prueba/job/Tarea1/build?token=job1'
       }
     }
 
